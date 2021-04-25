@@ -1,0 +1,30 @@
+:root {
+  --background-image: url('https://i.imgur.com/kmzYfp0.jpg');
+  --background-glass-color: 0, 0, 0;
+  --background-glass-transparency: 0.35;
+  --background-glass-transparency-dark: 0.45;
+  --background-glass-blur: 15px;
+  --background-primary: #213c33;
+  --background-secondary: #1a3029;
+  --background-secondary-alt: #192d26;
+  --background-tertiary: #172a24;
+  --background-accent: #2c463d;
+
+  --primary: #6c9270;
+  --primary-dark: #4c664e;
+
+  --section-spacing: 0.75rem;
+  --section-border-radius: 0.75rem;
+
+  --text-link: #79a584;
+
+  --radio-group-dot-foreground: var(--primary);
+
+  --interactive-active: #fff;
+  --interactive-muted: #4f545c;
+  --scrollbar-thin-thumb: var(--interactive-active);
+  --scrollbar-auto-thumb: var(--interactive-active);
+  --scrollbar-auto-track: tranparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--interactive-active);
+  --scrollbar-auto-scrollbar-color-track: tranparent;
+}

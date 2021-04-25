@@ -1,0 +1,8 @@
+{
+  "name": "Plexiglass",
+  "description": "A modern and flexible theme with an intuitive design.",
+  "version": "0.1.0",
+  "author": "Alanexei#0001",
+  "theme": "theme.css",
+  "license": "MIT"
+}

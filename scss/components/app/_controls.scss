@@ -1,0 +1,18 @@
+.barFill-23-gu- {
+  background-color: var(--primary);
+}
+
+.checkbox-1ix_J3.checked-3_4uQ9 {
+  border-color: var(--primary) !important;
+  background-color: var(--primary) !important;
+}
+
+.input-cIJ7To {
+  &.focused-1mmYsC {
+    border-color: var(--primary);
+  }
+
+  &:focus {
+    border-color: var(--primary);
+  }
+}

@@ -1,0 +1,189 @@
+:root {
+  --background-image: url("https://i.imgur.com/kmzYfp0.jpg");
+  --background-glass-color: 0, 0, 0;
+  --background-glass-transparency: 0.35;
+  --background-glass-transparency-dark: 0.45;
+  --background-glass-blur: 15px;
+  --background-primary: #213c33;
+  --background-secondary: #1a3029;
+  --background-secondary-alt: #192d26;
+  --background-tertiary: #172a24;
+  --background-accent: #2c463d;
+  --primary: #6c9270;
+  --primary-dark: #4c664e;
+  --section-spacing: 0.75rem;
+  --section-border-radius: 0.75rem;
+  --text-link: #79a584;
+  --radio-group-dot-foreground: var(--primary);
+  --interactive-active: #fff;
+  --interactive-muted: #4f545c;
+  --scrollbar-thin-thumb: var(--interactive-active);
+  --scrollbar-auto-thumb: var(--interactive-active);
+  --scrollbar-auto-track: tranparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--interactive-active);
+  --scrollbar-auto-scrollbar-color-track: tranparent;
+}
+
+.bg-h5JY_x {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circleIconButton-1QV--U,
+.expandedFolderBackground-1cujaW,
+.folder-1hbNCn,
+.contentRegionScroller-26nc1e,
+.container-3w7J-x,
+.panels-j1Uci_,
+.container-1r6BKw.themed-ANHk51,
+.chatContent-a9vAAp,
+.channelTextArea-rNsIhG,
+.members-1998pB,
+.markup-2BOw-j code,
+.embedFull-2tM8--,
+.textContainer-C0szpm,
+.footer-2yA7Ep {
+  background-color: rgba(var(--background-glass-color), var(--background-glass-transparency));
+  backdrop-filter: blur(var(--background-glass-blur));
+}
+
+.sidebarRegionScroller-3MXcoP {
+  background-color: rgba(var(--background-glass-color), var(--background-glass-transparency-dark));
+  backdrop-filter: blur(var(--background-glass-blur));
+}
+
+.circleIconButton-1QV--U,
+.folder-1hbNCn {
+  border-radius: 50%;
+}
+
+.circleIconButton-1QV--U {
+  color: var(--primary);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--primary);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: var(--primary-dark);
+}
+.lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
+  background-color: var(--primary);
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.barFill-23-gu- {
+  background-color: var(--primary);
+}
+
+.checkbox-1ix_J3.checked-3_4uQ9 {
+  border-color: var(--primary) !important;
+  background-color: var(--primary) !important;
+}
+
+.input-cIJ7To.focused-1mmYsC {
+  border-color: var(--primary);
+}
+.input-cIJ7To:focus {
+  border-color: var(--primary);
+}
+
+.flowerStar-1GeTsn > path {
+  fill: var(--primary);
+}
+
+.theme-dark .premiumIndicator-1XvbfM {
+  background-color: var(--primary);
+}
+
+.container-3w7J-x,
+.panels-j1Uci_,
+.title-3qD0b-,
+.chatContent-a9vAAp,
+.members-1998pB {
+  margin: var(--section-spacing);
+  border-radius: var(--section-border-radius);
+}
+
+.layer-3QrUeG,
+.standardSidebarView-3F1I7i,
+.contentRegion-3nDuYy {
+  background: transparent;
+}
+
+.item-PXvHYJ[aria-controls="Discord Nitro-tab"] {
+  color: var(--primary) !important;
+}
+
+.avatarUploaderInner-3UNxY3 {
+  background-color: var(--primary);
+}
+
+.unread-2lAfLh {
+  height: 24px;
+  top: 25%;
+}
+
+.sidebar-2K8pFh {
+  background: transparent;
+  width: 280px;
+}
+
+.chat-3bRxxu {
+  background: transparent;
+}
+.chat-3bRxxu .content-yTz4x3:before {
+  display: none;
+}
+
+.container-1r6BKw {
+  width: auto;
+}
+.container-1r6BKw .children-19S4PO::after {
+  display: none;
+}
+
+/* Markup Content */
+.markup-2BOw-j code {
+  border: none;
+}
+
+/* Embed */
+.embedFull-2tM8-- {
+  border-width: 5px;
+}
+
+.textContainer-C0szpm,
+.footer-2yA7Ep {
+  border: none;
+}
+
+.footer-2yA7Ep {
+  margin-top: 1px;
+}
+
+.form-2fGMdU .channelTextArea-2VhZ6z {
+  border-radius: var(--section-border-radius);
+}
+.form-2fGMdU .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
+  background: transparent;
+}
+.form-2fGMdU::before {
+  display: none;
+}
+
+.wrapper-3NnKdC,
+.scroller-1Bvpku {
+  background: transparent;
+}
+
+.members-1998pB > div {
+  background: transparent;
+}
+
+/*# sourceMappingURL=theme.css.map */

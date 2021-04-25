@@ -1,0 +1,25 @@
+.circleIconButton-1QV--U,
+.folder-1hbNCn {
+  border-radius: 50%;
+}
+
+.circleIconButton-1QV--U {
+  color: var(--primary);
+}
+
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--primary);
+
+  &:hover {
+    background-color: var(--primary-dark);
+  }
+
+  &:disabled {
+    background-color: var(--primary);
+  }
+}
+
+.lookOutlined-3sRXeN.colorBrand-3pXr91 {
+  color: var(--primary);
+  border-color: var(--primary);
+}

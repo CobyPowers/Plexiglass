@@ -1,0 +1,34 @@
+.bg-h5JY_x {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circleIconButton-1QV--U,
+.expandedFolderBackground-1cujaW,
+.folder-1hbNCn,
+.contentRegionScroller-26nc1e,
+.container-3w7J-x,
+.panels-j1Uci_,
+.container-1r6BKw.themed-ANHk51,
+.chatContent-a9vAAp,
+.channelTextArea-rNsIhG,
+.members-1998pB,
+.markup-2BOw-j code,
+.embedFull-2tM8--,
+.textContainer-C0szpm,
+.footer-2yA7Ep {
+  background-color: rgba(
+    var(--background-glass-color),
+    var(--background-glass-transparency)
+  );
+  backdrop-filter: blur(var(--background-glass-blur));
+}
+
+.sidebarRegionScroller-3MXcoP {
+  background-color: rgba(
+    var(--background-glass-color),
+    var(--background-glass-transparency-dark)
+  );
+  backdrop-filter: blur(var(--background-glass-blur));
+}
