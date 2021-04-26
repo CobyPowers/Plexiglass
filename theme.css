@@ -33,7 +33,7 @@
 .circleIconButton-1QV--U,
 .expandedFolderBackground-1cujaW,
 .folder-1hbNCn,
-.contentRegionScroller-26nc1e,
+.contentRegion-3nDuYy,
 .container-3w7J-x,
 .panels-j1Uci_,
 .container-1r6BKw.themed-ANHk51,
@@ -77,6 +77,14 @@
   border-color: var(--primary);
 }
 
+.item-PXvHYJ[aria-controls="Discord Nitro-tab"] {
+  color: var(--primary) !important;
+}
+
+.item-PXvHYJ[aria-controls=GUILD_PREMIUM-tab] {
+  color: var(--primary) !important;
+}
+
 .barFill-23-gu- {
   background-color: var(--primary);
 }
@@ -101,6 +109,10 @@
   background-color: var(--primary);
 }
 
+.botTagRegular-2HEhHi {
+  background-color: var(--primary);
+}
+
 .container-3w7J-x,
 .panels-j1Uci_,
 .title-3qD0b-,
@@ -112,12 +124,10 @@
 
 .layer-3QrUeG,
 .standardSidebarView-3F1I7i,
-.contentRegion-3nDuYy {
+.contentRegionScroller-26nc1e,
+.scroller-305q3I {
   background: transparent;
-}
-
-.item-PXvHYJ[aria-controls="Discord Nitro-tab"] {
-  color: var(--primary) !important;
+  backdrop-filter: none;
 }
 
 .avatarUploaderInner-3UNxY3 {
