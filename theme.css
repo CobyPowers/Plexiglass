@@ -1,9 +1,9 @@
 :root {
   --background-image: url("https://i.imgur.com/kmzYfp0.jpg");
   --background-glass-color: 0, 0, 0;
-  --background-glass-transparency: 0.35;
-  --background-glass-transparency-dark: 0.45;
-  --background-glass-blur: 15px;
+  --background-glass-transparency: 0.45;
+  --background-glass-transparency-dark: 0.55;
+  --background-glass-blur: 25px;
   --background-primary: #213c33;
   --background-secondary: #1a3029;
   --background-secondary-alt: #192d26;
@@ -35,6 +35,7 @@
 .folder-1hbNCn,
 .contentRegion-3nDuYy,
 .container-3w7J-x,
+.privateChannels-1nO12o,
 .panels-j1Uci_,
 .container-1r6BKw.themed-ANHk51,
 .chatContent-a9vAAp,
@@ -42,10 +43,15 @@
 .members-1998pB,
 .markup-2BOw-j code,
 .embedFull-2tM8--,
+.footer-2yA7Ep,
 .textContainer-C0szpm,
-.footer-2yA7Ep {
+.peopleColumn-29fq28,
+.nowPlayingColumn-2sl4cE,
+.scroller-1IIF0A,
+.header-39GIC8 {
   background-color: rgba(var(--background-glass-color), var(--background-glass-transparency));
   backdrop-filter: blur(var(--background-glass-blur));
+  background: transparent;
 }
 
 .sidebarRegionScroller-3MXcoP {
@@ -114,10 +120,15 @@
 }
 
 .container-3w7J-x,
+.container-19hC9u,
+.container-1r6BKw,
+.privateChannels-1nO12o,
 .panels-j1Uci_,
 .title-3qD0b-,
 .chatContent-a9vAAp,
-.members-1998pB {
+.members-1998pB,
+.peopleColumn-29fq28,
+.nowPlayingColumn-2sl4cE {
   margin: var(--section-spacing);
   border-radius: var(--section-border-radius);
 }
@@ -125,7 +136,9 @@
 .layer-3QrUeG,
 .standardSidebarView-3F1I7i,
 .contentRegionScroller-26nc1e,
-.scroller-305q3I {
+.scroller-305q3I,
+.scroller-1JbKMe,
+.theme-dark .container-1D34oG {
   background: transparent;
   backdrop-filter: none;
 }
@@ -187,9 +200,25 @@
   display: none;
 }
 
+.itemCard-v9viV7 {
+  background: transparent;
+  margin-bottom: 1rem;
+}
+.itemCard-v9viV7 .body-1ld4H7 {
+  background-color: var(--background-primary);
+}
+
+.tabBody-3YRQ8W:before {
+  display: none;
+}
+
 .wrapper-3NnKdC,
 .scroller-1Bvpku {
   background: transparent;
+}
+
+.libraryHeader-3g95kE:before {
+  display: none;
 }
 
 .members-1998pB > div {

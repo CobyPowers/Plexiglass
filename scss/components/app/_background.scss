@@ -9,6 +9,7 @@
 .folder-1hbNCn,
 .contentRegion-3nDuYy,
 .container-3w7J-x,
+.privateChannels-1nO12o,
 .panels-j1Uci_,
 .container-1r6BKw.themed-ANHk51,
 .chatContent-a9vAAp,
@@ -16,13 +17,18 @@
 .members-1998pB,
 .markup-2BOw-j code,
 .embedFull-2tM8--,
+.footer-2yA7Ep,
 .textContainer-C0szpm,
-.footer-2yA7Ep {
+.peopleColumn-29fq28,
+.nowPlayingColumn-2sl4cE,
+.scroller-1IIF0A,
+.header-39GIC8 {
   background-color: rgba(
     var(--background-glass-color),
     var(--background-glass-transparency)
   );
   backdrop-filter: blur(var(--background-glass-blur));
+  background: transparent;
 }
 
 .sidebarRegionScroller-3MXcoP {
