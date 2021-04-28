@@ -23,16 +23,15 @@
 .nowPlayingColumn-2sl4cE,
 .scroller-1IIF0A,
 .header-39GIC8 {
-  background-color: rgba(
+  background: rgba(
     var(--background-glass-color),
     var(--background-glass-transparency)
   );
   backdrop-filter: blur(var(--background-glass-blur));
-  background: transparent;
 }
 
 .sidebarRegionScroller-3MXcoP {
-  background-color: rgba(
+  background: rgba(
     var(--background-glass-color),
     var(--background-glass-transparency-dark)
   );
